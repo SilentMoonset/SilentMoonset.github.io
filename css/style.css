@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "HarmonyOS Sans";
+    src: url("../fonts/HarmonyOS_Sans.woff2") format("woff2"),
+        url("../fonts/HarmonyOS_Sans.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 页面主体容器 */
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* 基本元素 */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "HarmonyOS Sans", sans-serif;
+    color: #fafafa;
+    background-color: #222222;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0 0;
+    line-height: 1.5;
+}
+
+ul, ol {
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+ul li, ol li {
+    line-height: 1.5;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #3e3e3e;
+    margin: 2.5em 0 2em;
+}
+
+mark {
+    background-color: #9a9747;
+    color: #fafafa;
+    padding: 0 3px;
+    border-radius: 3px;
+}
+
+/* 常规在文字下的列表缩进 */
+.normal_li_indent {
+    margin-left: 1.5em;
+}
+
+/* “打车去干饭”块下面的列表上边距 */
+#ul1 {
+    margin-top: 10px;
+}
+
+/* 标题下的时间戳 */
+.timestamp {
+    color: #515151;
+    font-size: 0.5em;
+    font-style: italic;
+}
+
+/* 箭头上下边距 */
+.arrow {
+    margin: 20px 10px -5px;
+}
+
+
+/* Callout公共样式 */
+.callout {
+    margin-top: 25px;
+    padding: 15px 20px 22px;
+    border-radius: 5px;
+}
+
+/* Callout类型样式 */
+.callout.note { background-color: #2a548c64; }
+
+/* 标题样式 */
+.callout .title {
+    color: #0f72f4;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+/* Callout文本块内的段落缩进 */
+.p_indent {
+    margin-left: 26px
+}
+
+/* Callout文本块内的列表缩进 */
+.l_indent {
+    margin-left: 4px
+}
+
+/* 侧边栏目录 */
+.toc {
+    font-size: 0.8em;
+    line-height: 2em;
+    position: fixed;
+    top: 125px;
+    left: 200px;
+    width: 200px;
+}
+.toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.toc li {
+    margin-bottom: 0.5em
+}
+.toc hr {
+    border-top: 1px solid #3e3e3e;
+    margin: 10px 0 8px 0
+}
+.toc a:visited,
+.toc a:active {
+    color: inherit;
+}
