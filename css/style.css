@@ -74,6 +74,7 @@ mark {
     color: #515151;
     font-size: 0.5em;
     font-style: italic;
+    margin-bottom: 20px;
 }
 
 /* 箭头上下边距 */
@@ -112,11 +113,6 @@ mark {
 /* 侧边栏目录 */
 .toc {
     font-size: 0.8em;
-    line-height: 2em;
-    position: fixed;
-    top: 125px;
-    left: 200px;
-    width: 200px;
 }
 .toc ul {
     list-style: none;
@@ -130,6 +126,7 @@ mark {
     border-top: 1px solid #3e3e3e;
     margin: 10px 0 8px 0
 }
+.toc a,
 .toc a:link,
 .toc a:visited,
 .toc a:active {
