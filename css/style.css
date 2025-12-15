@@ -58,6 +58,17 @@ mark {
     padding: 0 3px;
     border-radius: 3px;
 }
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #515151;
+}
+footer a {
+    color: inherit;
+}
+footer a:hover {
+    color: #0f72f4;
+}
 
 /* 常规在文字下的列表缩进 */
 .normal_li_indent {
@@ -126,9 +137,9 @@ mark {
     border-top: 1px solid #3e3e3e;
     margin: 10px 0 8px 0
 }
-.toc a,
-.toc a:link,
-.toc a:visited,
-.toc a:active {
+.toc a {
     color: inherit;
+}
+.toc a:hover {
+    color: #0f72f4;
 }
