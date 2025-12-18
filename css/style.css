@@ -1,3 +1,4 @@
+/* 字体 */
 @font-face {
     font-family: "HarmonyOS Sans";
     src: url("../fonts/HarmonyOS_Sans.woff2") format("woff2"),
@@ -15,7 +16,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 
 /* 基本元素 */
 html {
@@ -47,9 +47,11 @@ ul li, ol li {
     line-height: 1.5;
 }
 
-a,
-a:hover {
+a {
     color: inherit;
+}
+a:hover {
+    color: #0f72f4;
 }
 
 hr {
@@ -70,27 +72,17 @@ mark {
     padding: 0 3px;
     border-radius: 3px;
 }
+
 footer {
     margin-top: 50px;
     text-align: center;
     font-size: 0.8em;
     color: #515151;
 }
-footer a {
-    color: inherit;
-}
-footer a:hover {
-    color: #0f72f4;
-}
 
 /* 常规在文字下的列表缩进 */
 .second_li_indent {
     margin-left: 1.5em;
-}
-
-/* “打车去干饭”块下面的列表上边距 */
-#ul1 {
-    margin-top: 10px;
 }
 
 /* 标题下的时间戳 */
@@ -105,7 +97,6 @@ footer a:hover {
 .arrow {
     margin: 20px 10px -5px;
 }
-
 
 /* Callout公共样式 */
 .callout {
@@ -151,12 +142,6 @@ footer a:hover {
 .toc hr {
     border-top: 1px solid #3e3e3e;
     margin: 10px 0 8px 0
-}
-.toc a {
-    color: inherit;
-}
-.toc a:hover {
-    color: #0f72f4;
 }
 
 /* 横向滚动区 */
