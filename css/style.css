@@ -2,7 +2,7 @@
 @font-face {
   font-family: "Noto Serif SC";
   src: url("../fonts/NotoSerifSC-VariableFont_wght.woff2") format("woff2");
-  font-weight: 100 900;
+  font-weight: 200 900;
   font-display: swap;
 }
 
@@ -22,6 +22,7 @@ html {
 
 body {
   font-family: "Noto Serif SC", serif;
+  font-weight: 500;
   color: #575279;
   background-color: #EEE5DD;
 }
@@ -53,7 +54,7 @@ a:hover {
 
 hr {
   border: none;
-  border-top: 2px solid #D1C8C2;
+  border-top: 1px solid #D1C8C2;
   margin: 32px 0 25px;
 }
 
